@@ -1,0 +1,11 @@
+/* miniprogram/pages/map/map.wxss */
+.btn_return {
+  margin-top: 12px;
+  background-color: #00aea1;
+  color: #fff;
+}
+.btn_search {
+  margin-top:12px;
+  background-color: #00aea1;
+  color: #fff;
+}

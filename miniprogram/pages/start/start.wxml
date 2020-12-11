@@ -1,0 +1,11 @@
+<!--miniprogram/pages/start/start.wxml-->
+<view class="intro">您的爱车停在</view>
+<view class="car_position">{{position}}</view>
+<button 
+  class="btn btn-send" 
+  style="opacity: {{opacity}}" 
+  disabled="{{disabled}}" 
+  bindtap="send"
+>
+ 开始找车
+</button>

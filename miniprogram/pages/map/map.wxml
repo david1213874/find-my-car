@@ -1,0 +1,12 @@
+<!--miniprogram/pages/map/map.wxml-->
+<view class="container">
+  <map id="map" longitude="{{longitude_you}} " latitude="{{latitude_you}}" scale="14" style="width:100%;height:400px" markers="{{markers}}"></map>
+</view>
+<button 
+  class="btn_return" 
+  bindtap="return"
+>返回界面</button>
+<button 
+  class="btn_search" 
+  bindtap="search"
+>找车</button>
